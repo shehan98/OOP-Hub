@@ -1,0 +1,10 @@
+﻿@model List<EmpiteIMS.Models.DTO.UserListModel>
+
+@{
+}
+
+<component type="typeof(ShowUserListComponent)" render-mode="ServerPrerendered" param-userListModel="Model"/>
+
+@section scripts {
+    <script src="_framework/blazor.server.js"></script>
+}

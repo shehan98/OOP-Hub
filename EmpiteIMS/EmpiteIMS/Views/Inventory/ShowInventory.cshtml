@@ -1,0 +1,10 @@
+﻿@model List<EmpiteIMS.Models.Inventory.InventoryModel>
+
+@{
+}
+
+<component type="typeof(ShowInventoryComponent)" render-mode="ServerPrerendered" param-Model="Model"/>
+
+@section scripts {
+    <script src="_framework/blazor.server.js"></script>
+}

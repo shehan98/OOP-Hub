@@ -1,0 +1,10 @@
+﻿@model List<EmpiteIMS.Models.Distribution.Merchant>
+
+@{
+}
+
+<component type="typeof(MailSenderComponent)" render-mode="ServerPrerendered" param-Merchants="Model"/>
+
+@section scripts {
+    <script src="_framework/blazor.server.js"></script>
+}

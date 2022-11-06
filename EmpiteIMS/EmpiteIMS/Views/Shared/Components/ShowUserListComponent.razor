@@ -1,0 +1,44 @@
+﻿@using EmpiteIMS.Models.Domain
+@using EmpiteIMS.Models.DTO
+@using Microsoft.AspNetCore.Components
+
+@using EmpiteIMS
+@using EmpiteIMS.Views.Shared.Components
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Authentication
+@using System.Net.Http
+
+<h1>User List</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Type</th>
+            <th>Status</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        <AuthorizeView Roles="admin">
+        
+            @foreach (var user in userListModel)
+            {
+                <tr>
+                    <td>@user.Username</td>
+                    <td>@user.Email</td>
+                    <td>@user.Password</td>
+                    <td>@user.Role</td>
+                    <td>@user.UserStatus</td>
+                    <td><a href="ViewUser/@user.Id">View</a></td>
+                </tr>
+            }
+        </AuthorizeView>
+    </tbody>
+</table>
+
+@code {
+    [Parameter]
+    public List<UserListModel> userListModel { get; set; }
+}

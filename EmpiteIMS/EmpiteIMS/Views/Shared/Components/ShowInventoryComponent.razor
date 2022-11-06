@@ -1,0 +1,43 @@
+﻿@using EmpiteIMS.Models.Inventory
+@using Microsoft.AspNetCore.Components
+
+@using EmpiteIMS
+@using EmpiteIMS.Views.Shared.Components
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Authentication
+@using System.Net.Http
+
+<h1>Inventory</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Item Name</th>
+            <th>Quantity</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.ItemName</td>
+                <td>@item.Quantity</td>
+                <AuthorizeView Roles="@($"admin, manager")">
+                    <td><a href="ViewItem/@item.ItemCode">Modify</a></td>
+                </AuthorizeView>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<AuthorizeView Roles="@($"admin, manager")">
+    <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+        <button type="submit" class="btn btn-primary btn-lg me-md-21" asp-action="SendMails" asp-controller="Distribution">Send Inventory Summary Report</button>
+    </div>
+</AuthorizeView>
+
+@code {
+    [Parameter]
+    public List<InventoryModel> Model { get; set; }
+}

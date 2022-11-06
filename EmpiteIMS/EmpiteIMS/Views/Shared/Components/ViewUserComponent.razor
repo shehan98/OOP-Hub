@@ -1,0 +1,46 @@
+﻿@using EmpiteIMS.Models.DTO
+@using Microsoft.AspNetCore.Components
+
+@using EmpiteIMS
+@using EmpiteIMS.Views.Shared.Components
+@using Microsoft.AspNetCore.Authorization
+@using Microsoft.AspNetCore.Authentication
+@using System.Net.Http
+
+<h3>ViewUserComponent</h3>
+
+<h1>Edit User Details</h1>
+    <form method="post" action="ViewUser" class="mt-5">
+      <div class="mb-3">
+        <label for="" class="form-label">Email address</label>
+        <input type="email" class="form-control" asp-for="@userListModel.Email" readonly>
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">Username</label>
+        <input type="text" class="form-control" asp-for="@userListModel.Username">
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">User Type</label>
+        <select asp-for="@userListModel.Role" class="form-control">
+          <option value="manager">Manager</option>
+          <option value="viewer">Viewer</option>
+        </select>
+      </div>
+      <div class="mb-3">
+        <label for="" class="form-label">User Status</label>
+        <select asp-for="@userListModel.UserStatus" class="form-control">
+          <option value="0">Disabled</option>
+          <option value="1">Active</option>
+        </select>
+      </div>
+      <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+          <button type="submit" class="btn btn-outline-danger btn-lg" asp-action="DeleteUser" asp-controller="Users">Delete</button>
+          <button type="submit" class="btn btn-secondary btn-lg me-md-21" asp-action="GoBack">Cancel</button>
+          <button type="submit" class="btn btn-primary btn-lg me-md-21">Save</button>
+      </div>
+    </form>
+
+@code {
+    [Parameter]
+    public UserListModel userListModel { get; set; }
+}

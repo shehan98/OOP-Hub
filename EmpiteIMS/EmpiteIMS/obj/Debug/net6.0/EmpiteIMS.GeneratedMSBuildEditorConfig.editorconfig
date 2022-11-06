@@ -1,0 +1,112 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EmpiteIMS
+build_property.RootNamespace = EmpiteIMS
+build_property.ProjectDir = F:\Workspace\GitHub\OOP-Hub\EmpiteIMS\EmpiteIMS\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = F:\Workspace\GitHub\OOP-Hub\EmpiteIMS\EmpiteIMS
+build_property._RazorSourceGeneratorDebug = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/AddItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcQWRkSXRlbUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/LoginComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTG9naW5Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/MailSenderComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcTWFpbFNlbmRlckNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/ShowInventoryComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvd0ludmVudG9yeUNvbXBvbmVudC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/ShowUserListComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcU2hvd1VzZXJMaXN0Q29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/UserCreationComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVXNlckNyZWF0aW9uQ29tcG9uZW50LnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/ViewItemComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVmlld0l0ZW1Db21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/ViewUserComponent.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcVmlld1VzZXJDb21wb25lbnQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Components/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXENvbXBvbmVudHNcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Admin/ShowUserList.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cU2hvd1VzZXJMaXN0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Admin/ViewUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQWRtaW5cVmlld1VzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Distribution/MailSender.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGlzdHJpYnV0aW9uXE1haWxTZW5kZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Inventory/AddItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XEFkZEl0ZW0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Inventory/ShowInventory.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XFNob3dJbnZlbnRvcnkuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Inventory/ViewItem.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSW52ZW50b3J5XFZpZXdJdGVtLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Login/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cTG9naW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Login/UserCreation.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTG9naW5cVXNlckNyZWF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[F:/Workspace/GitHub/OOP-Hub/EmpiteIMS/EmpiteIMS/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-1pne9rj52b
